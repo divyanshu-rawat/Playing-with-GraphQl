@@ -15,3 +15,5 @@
 ##
 
 RIP Rest API :) 
+
+Some hail it as the end of REST. Instead of calling individual endpoints to get data—each endpoint tailored to distributing a specific piece of the data— we call a single endpoint and get back all the information we want, structured exactly the way we want it.
