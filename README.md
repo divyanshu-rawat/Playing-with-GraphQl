@@ -18,3 +18,42 @@ RIP Rest API :)
 
 Some hail it as the end of REST. Instead of calling individual endpoints to get data—each endpoint tailored to distributing a specific piece of the data— we call a single endpoint and get back all the information we want, structured exactly the way we want it.
 
+Run rails server by running below-mentioned command in ther terminal.
+``` 
+  rails server -p 3001
+
+```
+
+Data can be populated by Opening up the Rails console with rails c and then run the following commands.
+
+```
+
+name_of_the_user = Person.create(name: 'name_of_the_user', surname: 'surname_of_the_user')
+name_of_the_user.cars.create(name: 'name_of_the_car_you_want_to_populate_with')
+name_of_the_user.cars.create(name: 'name_of_the_car_you_want_to_populate_with')
+
+```
+
+##
+
+Data population will take place in the following manner as shown in below-mentioned Image.
+
+![alt tag](https://github.com/divyanshu-rawat/Playing-with-GraphQl/blob/master/assets/data_populate.png)
+
+##
+
+![alt tag](https://github.com/divyanshu-rawat/Playing-with-GraphQl/blob/master/assets/graph_1_query_o.png)
+
+##
+
+![alt tag](https://github.com/divyanshu-rawat/Playing-with-GraphQl/blob/master/assets/console_query.png)
+
+##
+
+![alt tag](https://github.com/divyanshu-rawat/Playing-with-GraphQl/blob/master/assets/graph_ql_query.png)
+
+
+
+
+
+##
