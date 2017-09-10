@@ -1,5 +1,5 @@
 
-# types/pet_type.rb
+# types/car_type.rb
 
 
 CarType = GraphQL::ObjectType.define do
